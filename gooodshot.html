@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head>
         <meta charset="utf-8">
         <title>Bootstrap, from Twitter</title>
@@ -19,7 +19,7 @@
             <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
         <![endif]-->
     </head>
-    
+
     <body class="">
 
 <div class="navbar navbar-default navbar-static-top navbar-inverse">
@@ -29,9 +29,9 @@
         </button><a class="navbar-brand" href="#">GooodShot</a>
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
-    
+
         <ul class="nav navbar-nav navbar-right">
-        
+
             <li><a href="#">Time</a>
             </li>
             <li><a href="#">Weather</a>
@@ -46,15 +46,15 @@
 <div id="imgcontainer" class="container" >
 
 </div>
-
-
-
-
-
-
-
-
+<div class="map-area">
+    <div id="map-canvas"></div>
+</div>
+<!-- <div id="map-canvas"></div> -->
 
 </body>
+
+<link href="css/map.css" rel="stylesheet">
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=zh-tw"></script>
+<script src="js/map.js"></script>
 
 </html>
