@@ -37,7 +37,7 @@
             </li>
             <li><a href="#">Weather</a>
             </li>
-            <li><a href="#">Place</a>
+            <li><a id="place" href="#map-canvas">Place</a>
             </li>
             <li>
             <button class="btn btn-info btn-lg pull-right" type="button" onclick="search()">Check it OUT!</button>
@@ -49,10 +49,10 @@
 <div id="imgcontainer" class="container">
 
 </div>
-<div class="map-area">
+<!-- <div class="map-area">
     <div id="map-canvas"></div>
-</div>
-<!-- <div id="map-canvas"></div> -->
+</div> -->
+<div id="map-canvas"></div>
 
 
 
@@ -60,7 +60,9 @@
 </body>
 
 <link href="css/map.css" rel="stylesheet">
+<link href="js/fancybox/source/jquery.fancybox.css" rel="stylesheet">
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&language=zh-tw"></script>
+<script src="js/fancybox/source/jquery.fancybox.pack.js"></script>
 <script src="js/map.js"></script>
 
 </html>
