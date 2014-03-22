@@ -17,7 +17,7 @@ $("#imgcontainer").append('<div class="row">');
 
 for(var i = 0 ; i < x.length ; i++){
 	if(i % 6 == 0)
-		$("#imgcontainer").append('<div class="row"> style="padding-top: 10px;padding-bottom: 10px;"');
+		$("#imgcontainer").append('<div class="row"  style="padding-top: 15x; padding-bottom: 10px;"> ');
 
     if(x[i]["square"] != null){
     	url = x[i]["square"];
@@ -25,7 +25,7 @@ for(var i = 0 ; i < x.length ; i++){
 		$("#imgcontainer").append(tmp); 
     }
 
-    if(i % 4 == 0)
+    if(i % 6 == 0)
 		$("#imgcontainer").append("</div>");
 }
 
@@ -34,4 +34,3 @@ for(var i = 0 ; i < x.length ; i++){
 
 
 }
-
